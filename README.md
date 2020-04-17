@@ -6,5 +6,5 @@ In order to use this web project, you must move your mouse. The website tracks t
 
 ## The math
 The way this is powered is using a parametric equation. The parametric equations are:  
-<img src="img/eq1.png" alt="drawing" width="200"/>  
-![equation](http://www.sciweavers.org/tex2img.php?eq=y%3D%5Ccos%28k%5Ctheta%29%5Csin%28%5Ctheta%29&bc=White&fc=Black&im=jpg&fs=12&ff=modern&edit=0)
+<img src="img/eq1.png" alt="drawing" height="20"/>  
+<img src="img/eq2.png" alt="drawing" height="20"/>
