@@ -1,10 +1,12 @@
-# rose
-A rose curve that was made in processing for javascript (p5.js).
+# Rose Curve Generator
+This program uses p5.js, a javascript library for graphics, in order to parametrically generate rose curves. You can try it out at [arnavcs.github.io/rose-curve-generator](https://arnavcs.github.io/rose-curve-generator/).
 
-## How to use
-In order to use this web project, you must move your mouse. The website tracks the position of your mouse, and based on which grid section of the page your mouse is on, it sets the parameters to gerenrate the rose curve. You must hold your mouse in that position, otherwise the rose will not fully generate.
+## What is a Rose Curve?
+Rose curves, also knows as Rhodonea curves, are parametrically defined most easily through the polar equation $r = a \cos(k \theta)$, but can also be defined according to the following parametric equation:
+$$x(\theta) = a \cos(\frac{n}{d}\theta)\cos(\theta)$$
+$$y(\theta) = a \cos(\frac{n}{d}\theta)\sin(\theta)$$
 
-## The math
-The way this is powered is using a parametric equation. The parametric equations are:  
-<img src="img/eq1.png" alt="drawing" height="20"/>  
-<img src="img/eq2.png" alt="drawing" height="20"/>
+## How to use the Website?
+The values of $a$ is chosen automatically based on the size of the window. If the window is resized, refresh the page to change the values of $a$.
+
+The values of $n$ and $d$ are based on the relative position of the user's mouse on the window area. Move the mouse in order to change the values of $n$ and $d$.
